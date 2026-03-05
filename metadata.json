@@ -1,0 +1,5 @@
+{
+  "name": "SelfLearn - 自主学习平台",
+  "description": "一个面向学生的自主学习平台，支持AI对话创建路径、能力测评推荐、知识图谱勾选等多种学习任务创建方式。",
+  "requestFramePermissions": []
+}
