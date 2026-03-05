@@ -1,0 +1,84 @@
+# -------------------------- 核心依赖/生成文件（必排） --------------------------
+# Node.js 依赖文件夹（体积最大，绝对不上传）
+node_modules/
+# npm 缓存文件
+.npm/
+# yarn 缓存文件
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+# -------------------------- 环境/配置文件（含敏感信息） --------------------------
+# 环境变量文件（含密钥、端口等敏感信息）
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+# 配置文件（如有本地自定义配置）
+config/local.js
+config/local.json
+
+# -------------------------- 构建/编译产物（可重新生成） --------------------------
+# 前端构建产物
+dist/
+build/
+out/
+# 打包压缩文件
+*.zip
+*.tar.gz
+*.7z
+# 临时编译文件
+*.tmp
+*.temp
+
+# -------------------------- 数据库/大文件（重点排） --------------------------
+# SQLite 数据库文件（体积大，运行生成）
+*.db
+*.sqlite
+*.sqlite3
+# 数据库备份
+*.db.bak
+*.sql
+
+# -------------------------- 日志/缓存文件 --------------------------
+# 日志文件
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+# 缓存文件
+.cache/
+.eslintcache
+.npmrc.cache
+
+# -------------------------- 编辑器/系统冗余文件 --------------------------
+# VSCode 配置
+.vscode/
+.idea/
+# Windows 系统文件
+Thumbs.db
+Desktop.ini
+# Mac 系统文件
+.DS_Store
+.AppleDouble
+.LSOverride
+# 临时文件
+*.swp
+*.swo
+~*
+
+# -------------------------- 测试/临时文件 --------------------------
+# 测试报告/覆盖率
+coverage/
+.nyc_output/
+# 临时测试文件
+test-results/
+tmp/
+temp/
+
+# 排除备份文件
+*.bak
